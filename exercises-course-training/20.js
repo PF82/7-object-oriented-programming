@@ -30,8 +30,13 @@ Dog.prototype = Object.create(Animal.prototype);
 
 
 let duck = new Bird();
+Bird.prototype.constructor = Bird;
+duck.constructor
 let beagle = new Dog();
+Dog.prototype.constructor = Dog;
+beagle.constructor
 
 
-console.log()
+console.log(duck)
+console.log(beagle)
 // document.getElementById("demo").innerHTML = "";

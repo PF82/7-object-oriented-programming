@@ -30,10 +30,10 @@ Animal.prototype = {
 function Dog() { }
 
 // Only change code below this line
-
+Dog.prototype = Object.create(Animal.prototype);
 
 let beagle = new Dog();
 
 
-console.log()
+console.log(Dog.prototype)
 // document.getElementById("demo").innerHTML = "";
