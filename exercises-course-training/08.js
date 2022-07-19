@@ -37,7 +37,8 @@ function House(numBedrooms) {
 }
 
 // Only change code below this line
+let myHouse = new House(5);
+myHouse instanceof House;
 
-
-console.log()
+console.log(myHouse)
 // document.getElementById("demo").innerHTML = "";
