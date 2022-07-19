@@ -44,7 +44,15 @@ let ownProps = [];
 let prototypeProps = [];
 
 // Only change code below this line
+for (let property in beagle) {
+  if (beagle.hasOwnProperty(property)) {
+    ownProps.push(property);
+  } else {
+    prototypeProps.push(property);
+  }
+}
 
 
-console.log()
+console.log(ownProps)
+console.log(prototypeProps)
 // document.getElementById("demo").innerHTML = "";
