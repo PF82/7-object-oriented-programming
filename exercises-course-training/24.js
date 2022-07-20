@@ -29,7 +29,9 @@ Change how weight is declared in the Bird function so it is a private variable. 
 function Bird() {
   this.weight = 15;
 
-
+  this.getWeight = function () {
+    return weight;
+  };
 }
 
 

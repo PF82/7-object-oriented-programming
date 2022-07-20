@@ -49,7 +49,17 @@ let boat = {
 };
 
 // Only change code below this line
+let glideMixin = function (obj) {
+  obj.glide = function () {
+    console.log("Gliding");
+  }
+};
 
+glideMixin(bird);
+glideMixin(boat);
+
+bird.glide();
+boat.glide();
 
 console.log()
 // document.getElementById("demo").innerHTML = "";
