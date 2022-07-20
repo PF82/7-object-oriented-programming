@@ -20,5 +20,5 @@ let dog = {
 // Only change code below this line
 
 
-console.log()
+console.log(dog.name, dog.numLegs)
 // document.getElementById("demo").innerHTML = "";

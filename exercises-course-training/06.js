@@ -34,7 +34,9 @@ function Dog() {
   this.numLegs = 4;
 }
 // Only change code below this line
+let hound = new Dog();
+hound.dog = "lavrador";
 
-
-console.log()
+console.log(new Dog)
+console.log(hound)
 // document.getElementById("demo").innerHTML = "";

@@ -24,8 +24,12 @@ Constructors define properties and behaviors instead of returning a value as oth
 Create a constructor, Dog, with properties name, color, and numLegs that are set to a string, a string, and a number, respectively.
 */
 
+function Dog() {
+  this.name = "Bobi";
+  this.color = "Black";
+  this.numLegs = 4;
+}
 
 
-
-console.log()
+console.log(Dog())
 // document.getElementById("demo").innerHTML = "";

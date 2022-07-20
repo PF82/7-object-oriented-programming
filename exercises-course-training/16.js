@@ -33,8 +33,9 @@ let beagle = new Dog("Snoopy");
 Dog.prototype.isPrototypeOf(beagle);  // yields true
 
   // Fix the code below so that it evaluates to true
-  ???.isPrototypeOf(Dog.prototype);
+  Object.prototype.isPrototypeOf(Dog.prototype);
 
 
-console.log()
+console.log(Object.prototype.isPrototypeOf(Dog.prototype))
+console.log(Dog.prototype.isPrototypeOf(beagle))
 // document.getElementById("demo").innerHTML = "";
