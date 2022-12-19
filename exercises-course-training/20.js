@@ -27,8 +27,6 @@ Dog.prototype = Object.create(Animal.prototype);
 
 // Only change code below this line
 
-
-
 let duck = new Bird();
 Bird.prototype.constructor = Bird;
 duck.constructor
@@ -36,7 +34,5 @@ let beagle = new Dog();
 Dog.prototype.constructor = Dog;
 beagle.constructor
 
-
-console.log(duck)
-console.log(beagle)
+console.log()
 // document.getElementById("demo").innerHTML = "";

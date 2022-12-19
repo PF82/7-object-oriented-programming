@@ -32,5 +32,5 @@ let dog = {
 dog.sayLegs();
 
 
-console.log(dog.sayLegs())
+console.log()
 // document.getElementById("demo").innerHTML = "";

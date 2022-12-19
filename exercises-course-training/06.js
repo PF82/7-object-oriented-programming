@@ -35,8 +35,5 @@ function Dog() {
 }
 // Only change code below this line
 let hound = new Dog();
-hound.dog = "lavrador";
-
-console.log(new Dog)
-console.log(hound)
+console.log(anotherDog)
 // document.getElementById("demo").innerHTML = "";

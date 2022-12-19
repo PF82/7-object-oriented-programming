@@ -42,12 +42,15 @@ Dog.prototype = Object.create(Animal.prototype);
 Dog.prototype.constructor = Dog;
 
 Dog.prototype.bark = function () {
-  console.log("Woof!");
+    console.log("Woof!");
 };
+
+
+
 // Only change code above this line
 
 let beagle = new Dog();
 
 
-console.log(beagle)
+console.log()
 // document.getElementById("demo").innerHTML ="";

@@ -28,8 +28,8 @@ canary instanceof Bird;
 
 This instanceof method would return false.
 
-Create a new instance of the House constructor, calling it myHouse and passing a number of bedrooms. Then, use instanceof to verify that it is 
-an instance of House.
+Create a new instance of the House constructor, calling it myHouse and passing a number of bedrooms. Then, use instanceof to verify 
+that it is an instance of House.
 */
 
 function House(numBedrooms) {
@@ -37,8 +37,8 @@ function House(numBedrooms) {
 }
 
 // Only change code below this line
-let myHouse = new House(5);
-myHouse instanceof House;
+  let myHouse = new House(5);
+  myHouse instanceof House;
 
-console.log(myHouse)
+  console.log(myHouse)
 // document.getElementById("demo").innerHTML = "";

@@ -27,5 +27,5 @@ let beagle = new Dog("Snoopy");
 // Only change code below this line
 Dog.prototype.isPrototypeOf(beagle);
 
-console.log(beagle)
+console.log()
 // document.getElementById("demo").innerHTML = "";

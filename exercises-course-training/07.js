@@ -40,8 +40,7 @@ function Dog(name, color) {
   this.numLegs = 4;
 }
 
-let terrier = new Dog("Bobi", "black");
+let terrier = new Dog('bobby', 'black');
 
-
-console.log(new Dog("Bobi", "black"))
+console.log(terrier)
 // document.getElementById("demo").innerHTML = "";

@@ -22,10 +22,10 @@ Create a dog object with name and numLegs properties, and set them to a string a
 */
 
 let dog = {
-  name: "Bobi",
+  name: 'bobby',
   numLegs: 4
 };
 
 
-console.log(dog)
+console.log()
 // document.getElementById("demo").innerHTML = "";

@@ -40,5 +40,5 @@ function joinDogFraternity(candidate) {
 }
 
 
-console.log()
+console.log(candidate.constructor === Dog)
 // document.getElementById("demo").innerHTML = "";

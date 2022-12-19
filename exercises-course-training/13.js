@@ -45,5 +45,5 @@ Dog.prototype = {
 };
 
 
-console.log()
+console.log(Dog.prototype)
 // document.getElementById("demo").innerHTML = "";

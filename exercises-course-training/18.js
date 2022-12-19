@@ -45,6 +45,5 @@ let duck = Object.create(Animal.prototype); // Change this line
 let beagle = Object.create(Animal.prototype); // Change this line
 
 
-console.log(duck)
-console.log(beagle)
+console.log()
 // document.getElementById("demo").innerHTML = "";

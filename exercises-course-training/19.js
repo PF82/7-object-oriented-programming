@@ -33,7 +33,7 @@ function Dog() { }
 Dog.prototype = Object.create(Animal.prototype);
 
 let beagle = new Dog();
+beagle.eat()
 
-
-console.log(Dog.prototype)
+console.log()
 // document.getElementById("demo").innerHTML = "";

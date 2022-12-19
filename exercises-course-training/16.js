@@ -36,6 +36,5 @@ Dog.prototype.isPrototypeOf(beagle);  // yields true
   Object.prototype.isPrototypeOf(Dog.prototype);
 
 
-console.log(Object.prototype.isPrototypeOf(Dog.prototype))
-console.log(Dog.prototype.isPrototypeOf(beagle))
+console.log()
 // document.getElementById("demo").innerHTML = "";
